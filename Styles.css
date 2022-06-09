@@ -1,4 +1,26 @@
+@font-face {
+    src: url(fonts/FloralCapitals.ttf);
+    font-family: floral;
+}
+@font-face {
+    src: url(fonts/valdemar.ttf);
+    font-family: valdemar;
+}
+
 .format {
     height: auto;
     width: 500px;
+}
+
+#odin {
+    font-family: valdemar, sans-serif;
+    font-size: 60px;
+}
+
+div {
+    background-color: #d3d3d3;
+}
+
+.titles {
+    font-family: 'Marko One', serif;
 }
