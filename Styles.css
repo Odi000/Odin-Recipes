@@ -22,15 +22,15 @@ html {
 
 .titles {
     font-family: 'Marko One', serif;
+    margin-top: 0;
 }
 
 .whole {
     width: 600px;
-    height: 800px;
     background-color: peachpuff;
     border: 9px ridge brown;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     margin: auto
     
 }
@@ -40,9 +40,9 @@ h1 {
 }
 
 img {
-    width: 562px;
+    width: 552px;
     height: auto;
-    border: 5px solid rgb(94, 23, 23);
+    outline: 5px solid rgb(94, 23, 23);
     border-radius: 10px;
 }
 
@@ -59,12 +59,30 @@ img {
     border-radius: 10px;
     text-align: center; 
 }
+.meal:hover,  .meal:active {
+    outline: 2px solid brown;
+}
 
-a {
+div div a {
     margin: 21px 0px;
     display: inline-block;
 }
 
 #tomato {
     margin: 12px 0px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.back:visited, a.back:link{
+    background-color: rgb(209, 174, 142);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+a.back:hover, a.back:active {
+    outline: 2px solid brown;
 }
