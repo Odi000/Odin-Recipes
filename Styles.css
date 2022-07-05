@@ -55,9 +55,11 @@ img {
 .meal {
     width: 120px;
     height: 60px;
+    display: inline-block;
     background-color: rgb(209, 174, 142);
     border-radius: 10px;
-    text-align: center; 
+    text-align: center;
+    padding: 21px 0; 
 }
 .meal:hover,  .meal:active {
     outline: 2px solid brown;
@@ -69,7 +71,7 @@ div div a {
 }
 
 #tomato {
-    margin: 12px 0px;
+    padding: 12px 0;
 }
 
 a:link, a:visited {
